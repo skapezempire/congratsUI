@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+    background-image: url(images/bac.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+}
+
+.container{
+    background-color: rgb(41, 41, 41);
+    width:30em;
+    height:40em;
+    border-radius: 0.5em;
+    margin: auto;
+    
+    
+    
+
+
+
+}
+
+/*2nd*/
+
+#avatar{
+    width:3em;
+    height: 3em;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 2em;
+
+}
+
+/*3rd*/
+#logo{
+    width: 8em;
+    height:2em;
+    padding-left: 0.5em;
+}
+
+/*4*/
+.imageTop{
+    Padding-top: 2em;
+   display:flex;
+   justify-content: end;
+   column-gap: 16em;
+   /*justify-items:center;*/
+
+}
+
+/*5*/
+#kudosImg{
+    width:15em;
+    height: 10em;
+    object-fit: cover;
+    
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+
+
+
+
+/*6*/
+#btn_1{
+    color: rgb(41, 41, 41);
+    width:18em;
+    height:4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    border-radius: 0.4em;
+    background-color:  rgb(18, 110, 191);
+    border-color:  rgb(18, 110, 191);
+    
+   
+}
+
+#btn_2{
+    color: rgb(18, 110, 191);
+    width:18em;
+    height:4em;
+    font-weight: bold;
+    background-color: rgb(41, 41, 41);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-radius: 0.4em;
+    border-color: rgb(18, 110, 191);;
+}
+
+
+/*7*/
+.btn{
+    display: flex;
+    flex-direction: column;
+   
+    row-gap: 1em;
+    
+
+align-items: center;
+}
+
+.count{
+    color:rgb(18, 110, 191);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#num{
+    font-weight: bolder;
+
+}
+
+#like{
+    font-weight: lighter;
+
+}
+
+
+.details{
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: aliceblue;
+
+
+
+}
+
+h6{
+    margin-bottom: 2em;
+}
